@@ -75,56 +75,56 @@
 		B174A5332096F29900D02F1B /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				B174A5392096F29900D02F1B /* Main */,
-				B174A5342096F29900D02F1B /* Home */,
-				B174A5382096F29900D02F1B /* Live */,
-				B174A5352096F29900D02F1B /* Follow */,
-				B174A5372096F29900D02F1B /* Profile */,
-				B174A5362096F29900D02F1B /* Toos */,
+				B174A55520970AA800D02F1B /* Main */,
+				B174A55820970AA800D02F1B /* Home */,
+				B174A55720970AA800D02F1B /* Live */,
+				B174A55920970AA800D02F1B /* Follow */,
+				B174A55620970AA800D02F1B /* Profile */,
+				B174A55420970AA800D02F1B /* Toos */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
 		};
-		B174A5342096F29900D02F1B /* Home */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Home;
-			sourceTree = "<group>";
-		};
-		B174A5352096F29900D02F1B /* Follow */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Follow;
-			sourceTree = "<group>";
-		};
-		B174A5362096F29900D02F1B /* Toos */ = {
+		B174A55420970AA800D02F1B /* Toos */ = {
 			isa = PBXGroup;
 			children = (
 			);
 			path = Toos;
 			sourceTree = "<group>";
 		};
-		B174A5372096F29900D02F1B /* Profile */ = {
+		B174A55520970AA800D02F1B /* Main */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		B174A55620970AA800D02F1B /* Profile */ = {
 			isa = PBXGroup;
 			children = (
 			);
 			path = Profile;
 			sourceTree = "<group>";
 		};
-		B174A5382096F29900D02F1B /* Live */ = {
+		B174A55720970AA800D02F1B /* Live */ = {
 			isa = PBXGroup;
 			children = (
 			);
 			path = Live;
 			sourceTree = "<group>";
 		};
-		B174A5392096F29900D02F1B /* Main */ = {
+		B174A55820970AA800D02F1B /* Home */ = {
 			isa = PBXGroup;
 			children = (
 			);
-			path = Main;
+			path = Home;
+			sourceTree = "<group>";
+		};
+		B174A55920970AA800D02F1B /* Follow */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Follow;
 			sourceTree = "<group>";
 		};
 		B19C7ADF20947562002FF153 = {
