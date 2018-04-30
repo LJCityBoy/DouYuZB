@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		B19C7AEC20947562002FF153 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B19C7AEB20947562002FF153 /* AppDelegate.swift */; };
-		B19C7AEE20947562002FF153 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B19C7AED20947562002FF153 /* ViewController.swift */; };
 		B19C7AF120947562002FF153 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B19C7AEF20947562002FF153 /* Main.storyboard */; };
 		B19C7AF320947562002FF153 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B19C7AF220947562002FF153 /* Assets.xcassets */; };
 		B19C7AF620947562002FF153 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B19C7AF420947562002FF153 /* LaunchScreen.storyboard */; };
@@ -36,7 +35,6 @@
 /* Begin PBXFileReference section */
 		B19C7AE820947562002FF153 /* DouYuZB.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DouYuZB.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B19C7AEB20947562002FF153 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		B19C7AED20947562002FF153 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		B19C7AF020947562002FF153 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B19C7AF220947562002FF153 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B19C7AF520947562002FF153 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -74,6 +72,61 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B174A5332096F29900D02F1B /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				B174A5392096F29900D02F1B /* Main */,
+				B174A5342096F29900D02F1B /* Home */,
+				B174A5382096F29900D02F1B /* Live */,
+				B174A5352096F29900D02F1B /* Follow */,
+				B174A5372096F29900D02F1B /* Profile */,
+				B174A5362096F29900D02F1B /* Toos */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		B174A5342096F29900D02F1B /* Home */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		B174A5352096F29900D02F1B /* Follow */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Follow;
+			sourceTree = "<group>";
+		};
+		B174A5362096F29900D02F1B /* Toos */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Toos;
+			sourceTree = "<group>";
+		};
+		B174A5372096F29900D02F1B /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		B174A5382096F29900D02F1B /* Live */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Live;
+			sourceTree = "<group>";
+		};
+		B174A5392096F29900D02F1B /* Main */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
 		B19C7ADF20947562002FF153 = {
 			isa = PBXGroup;
 			children = (
@@ -97,8 +150,8 @@
 		B19C7AEA20947562002FF153 /* DouYuZB */ = {
 			isa = PBXGroup;
 			children = (
+				B174A5332096F29900D02F1B /* Classes */,
 				B19C7AEB20947562002FF153 /* AppDelegate.swift */,
-				B19C7AED20947562002FF153 /* ViewController.swift */,
 				B19C7AEF20947562002FF153 /* Main.storyboard */,
 				B19C7AF220947562002FF153 /* Assets.xcassets */,
 				B19C7AF420947562002FF153 /* LaunchScreen.storyboard */,
@@ -259,7 +312,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B19C7AEE20947562002FF153 /* ViewController.swift in Sources */,
 				B19C7AEC20947562002FF153 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -426,14 +478,16 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = AD85PC6NCL;
 				INFOPLIST_FILE = DouYuZB/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = LJ.DouYuZB;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -441,14 +495,16 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = AD85PC6NCL;
 				INFOPLIST_FILE = DouYuZB/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = LJ.DouYuZB;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
